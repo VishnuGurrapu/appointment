@@ -1,0 +1,105 @@
+/* Write your CSS here */
+.separator {
+  border-top: 2px solid #bbb;
+}
+.bgContainer {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+}
+.fillingContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 25px;
+  color: #171f46;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.titleLabel {
+  color: #b5b7c4;
+  font-size: 13px;
+  font-weight: bold;
+}
+.input {
+  padding: 10px;
+  border: 1px solid #171f46;
+  margin-bottom: 10px;
+  box-shadow: #b5b7c4;
+  outline: none;
+}
+.btn {
+  background-color: #8b5cf6;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  color: #ffffff;
+}
+.list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+       
+}
+@media only screen and (max-width: 767px) {
+  .list {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .imgContainer {
+    display: none;
+  }
+}
+.img {
+  max-width: 500px;
+}
+.middleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.active {
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #8b5cf6;
+  border: 1px solid #8b5cf6;
+}
+.inactive {
+  color: #9796f0;
+  border: 1px solid #9796f0;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: transparent;
+}

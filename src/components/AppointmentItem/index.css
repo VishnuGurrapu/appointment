@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.listItem {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  border: 1px solid #b5b7c4;
+  padding: 5px;
+}
+@media only screen and (min-width: 767px) {
+  .listItem {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    border: 1px solid #b5b7c4;
+    padding: 5px;
+    max-width: 250px;
+  }
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: #171f46;
+  font-size: 15px;
+}
+.date {
+  color: #b5b7c4;
+  font-size: 15px;
+}
+.icon {
+  height: 20px;
+}
+.btn2 {
+  border: none;
+  padding: none;
+  background-color: transparent;
+  align-self: flex-start;
+}
